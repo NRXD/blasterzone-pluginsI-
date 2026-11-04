@@ -1,0 +1,10 @@
+{
+  "id": "DesktopSpoof",
+  "type": "plugin",
+  "spec": 3,
+  "name": "Desktop Spoof",
+  "description": "Spoof your client as Windows/Mac desktop to Discord's gateway. Unlocks desktop-only features and shows desktop status.",
+  "authors": [{ "name": "BlasterZone", "id": "blasterzone" }],
+  "version": "1.0.0",
+  "main": "index.js"
+}

@@ -1,0 +1,1 @@
+{"id":"ClearURLs","type":"plugin","spec":3,"name":"ClearURLs","description":"Strip tracking parameters from URLs automatically (utm_source, fbclid, etc).","authors":[{"name":"BlasterZone","id":"blasterzone"}],"version":"1.0.0","main":"index.js"}

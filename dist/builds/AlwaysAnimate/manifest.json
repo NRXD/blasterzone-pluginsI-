@@ -1,0 +1,1 @@
+{"id":"AlwaysAnimate","type":"plugin","spec":3,"name":"Always Animate","description":"Always animate GIF avatars and emoji even when not hovering — keep everything alive.","authors":[{"name":"BlasterZone","id":"blasterzone"}],"version":"1.0.0","main":"index.js"}

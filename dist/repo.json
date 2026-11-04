@@ -1,0 +1,21 @@
+{
+  "$meta": {
+    "name": "BlasterZone Plugins",
+    "description": "BlasterZone plugin suite — voice mods, fake deafen, gain boost, and more. By theone."
+  },
+  "FakeDeafen": { "version": "1.0.0" },
+  "FakeMute": { "version": "1.0.0" },
+  "GainBoost": { "version": "1.0.0" },
+  "DesktopSpoof": { "version": "1.0.0" },
+  "SilentTyping": { "version": "1.0.0" },
+  "MessageLogger": { "version": "1.0.0" },
+  "ClearURLs": { "version": "1.0.0" },
+  "ImageZoom": { "version": "1.0.0" },
+  "FakeNitro": { "version": "1.0.0" },
+  "AMOLED": { "version": "1.0.0" },
+  "ShowHiddenChannels": { "version": "1.0.0" },
+  "ReadAllButton": { "version": "1.0.0" },
+  "NoTypingIndicator": { "version": "1.0.0" },
+  "AlwaysAnimate": { "version": "1.0.0" },
+  "OnlineFriendCount": { "version": "1.0.0" }
+}

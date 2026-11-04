@@ -1,0 +1,1 @@
+{"id":"ImageZoom","type":"plugin","spec":3,"name":"Image Zoom","description":"Pinch to zoom images in Discord. Long press to open full resolution.","authors":[{"name":"BlasterZone","id":"blasterzone"}],"version":"1.0.0","main":"index.js"}

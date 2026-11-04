@@ -1,0 +1,1 @@
+{"id":"FakeNitro","type":"plugin","spec":3,"name":"Fake Nitro","description":"Use animated emoji and emotes from any server without Nitro. Sends as links where possible.","authors":[{"name":"BlasterZone","id":"blasterzone"}],"version":"1.0.0","main":"index.js"}

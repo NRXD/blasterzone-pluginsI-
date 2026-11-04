@@ -1,0 +1,10 @@
+{
+  "id": "FakeDeafen",
+  "type": "plugin",
+  "spec": 3,
+  "name": "Fake Deafen",
+  "description": "Appear deafened to others but still hear everything. Full audio continues while Discord shows you as deafened.",
+  "authors": [{ "name": "BlasterZone", "id": "blasterzone" }],
+  "version": "1.0.0",
+  "main": "index.js"
+}

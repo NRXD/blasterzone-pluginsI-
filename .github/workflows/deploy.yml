@@ -1,0 +1,78 @@
+name: Build BlasterZone IPA + Deploy Plugin Repo
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy-and-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate plugin structure
+        run: |
+          echo "=== Plugin repo structure ==="
+          find dist/ -type f | sort
+          echo ""
+          echo "=== Validating repo.json ==="
+          python3 -m json.tool dist/repo.json > /dev/null && echo "repo.json valid"
+          echo ""
+          echo "=== Validating manifests ==="
+          for f in dist/builds/*/manifest.json; do
+            python3 -m json.tool "$f" > /dev/null && echo "✓ $f"
+          done
+
+      # ── Deploy plugin repo to GitHub Pages ───────────────────────────────
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          destination_dir: dist
+          keep_files: false
+
+      # ── Build IPA ─────────────────────────────────────────────────────────
+      - name: Download Revenge IPA
+        run: |
+          echo "Downloading Revenge IPA..."
+          curl -L "https://github.com/revenge-mod/revenge-tweak/releases/download/v250.0/Revenge.ipa" \
+            -o Revenge.ipa
+          ls -lh Revenge.ipa
+
+      - name: Inject BlasterZone into Revenge IPA
+        run: |
+          mkdir -p work
+          unzip -q Revenge.ipa -d work
+
+          APP="work/Payload/Discord.app"
+          PATCHES="$APP/RevengePatches.bundle"
+
+          echo "=== Current bundle contents ==="
+          ls "$PATCHES/"
+
+          # Create preloads directory (supported natively by RevengeTweak.dylib)
+          mkdir -p "$PATCHES/preloads"
+
+          # Inject the repo auto-registrar as a preload
+          cp preload/blasterzone-inject.js "$PATCHES/preloads/blasterzone.js"
+
+          echo ""
+          echo "=== Injected preload ==="
+          ls -lh "$PATCHES/preloads/"
+
+          # Repack
+          cd work
+          zip -r -q ../BlasterZone.ipa Payload/
+          cd ..
+          ls -lh BlasterZone.ipa
+
+      - name: Upload IPA artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: BlasterZone-IPA
+          path: BlasterZone.ipa
+          retention-days: 30
