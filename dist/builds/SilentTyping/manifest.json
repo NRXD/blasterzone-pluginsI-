@@ -1,0 +1,1 @@
+{"id":"SilentTyping","type":"plugin","spec":3,"name":"Silent Typing","description":"Stop Discord from showing the typing indicator when you type.","authors":[{"name":"BlasterZone","id":"blasterzone"}],"version":"1.0.0","main":"index.js"}

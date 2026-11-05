@@ -1,0 +1,10 @@
+{
+  "id": "GainBoost",
+  "type": "plugin",
+  "spec": 3,
+  "name": "Gain Boost ⚡",
+  "description": "Boost your microphone gain beyond Discord's limits. Presets: Mild (200%), Loud (450%), Max (600%), GOD (700%). ツcore audio engine.",
+  "authors": [{ "name": "BlasterZone", "id": "blasterzone" }],
+  "version": "1.0.0",
+  "main": "index.js"
+}

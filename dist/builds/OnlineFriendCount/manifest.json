@@ -1,0 +1,1 @@
+{"id":"OnlineFriendCount","type":"plugin","spec":3,"name":"Online Friend Count","description":"Show the count of online friends in the home button tooltip and sidebar.","authors":[{"name":"BlasterZone","id":"blasterzone"}],"version":"1.0.0","main":"index.js"}

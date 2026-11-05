@@ -1,0 +1,1 @@
+{"id":"ReadAllButton","type":"plugin","spec":3,"name":"Read All Button","description":"Add a button to mark all servers and channels as read at once.","authors":[{"name":"BlasterZone","id":"blasterzone"}],"version":"1.0.0","main":"index.js"}

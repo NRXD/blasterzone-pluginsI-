@@ -1,0 +1,1 @@
+{"id":"MessageLogger","type":"plugin","spec":3,"name":"Message Logger","description":"Logs deleted and edited messages so you can still read them. Deleted messages shown with strikethrough.","authors":[{"name":"BlasterZone","id":"blasterzone"}],"version":"1.0.0","main":"index.js"}

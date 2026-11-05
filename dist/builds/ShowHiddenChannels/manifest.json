@@ -1,0 +1,1 @@
+{"id":"ShowHiddenChannels","type":"plugin","spec":3,"name":"Show Hidden Channels","description":"Show channels you don't have access to and display who can see them.","authors":[{"name":"BlasterZone","id":"blasterzone"}],"version":"1.0.0","main":"index.js"}

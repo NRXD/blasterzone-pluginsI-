@@ -1,0 +1,1 @@
+{"id":"AMOLED","type":"plugin","spec":3,"name":"AMOLED","description":"True pure black theme for AMOLED screens. Saves battery on OLED displays and looks clean.","authors":[{"name":"BlasterZone","id":"blasterzone"}],"version":"1.0.0","main":"index.js"}

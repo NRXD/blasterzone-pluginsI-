@@ -1,0 +1,1 @@
+{"id":"NoTypingIndicator","type":"plugin","spec":3,"name":"No Typing Indicator","description":"Hide the typing indicator animation in channels so you don't see who's typing.","authors":[{"name":"BlasterZone","id":"blasterzone"}],"version":"1.0.0","main":"index.js"}
