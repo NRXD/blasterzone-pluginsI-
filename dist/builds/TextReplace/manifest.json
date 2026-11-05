@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "TextReplace",
+  "name": "Text Replace",
+  "description": "Automatically replace specific text strings in your messages before sending.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

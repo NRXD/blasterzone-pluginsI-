@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "PermissionFreeWill",
+  "name": "Permission Free Will",
+  "description": "Allow right-clicking any channel or role regardless of your permissions.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

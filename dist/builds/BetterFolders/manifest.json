@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "BetterFolders",
+  "name": "Better Folders",
+  "description": "Show a sidebar with all servers in a folder when you open it.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

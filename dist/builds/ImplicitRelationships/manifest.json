@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "ImplicitRelationships",
+  "name": "Implicit Relationships",
+  "description": "Show people you share servers with in the relationships list.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

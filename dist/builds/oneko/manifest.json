@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "oneko",
+  "name": "oneko",
+  "description": "neko follows your cursor around the screen. :3",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "ReplaceGoogleSearch",
+  "name": "Replace Google Search",
+  "description": "Replace Google with a search engine of your choice in Discord's search.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

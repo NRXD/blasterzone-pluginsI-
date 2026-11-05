@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "AlwaysExpandRoles",
+  "name": "Always Expand Roles",
+  "description": "Always expand the roles list in a user's profile, never collapse it.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "ReverseImageSearch",
+  "name": "Reverse Image Search",
+  "description": "Add Google, TinEye and SauceNAO reverse image search to right-click menu.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

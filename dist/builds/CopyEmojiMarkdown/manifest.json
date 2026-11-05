@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "CopyEmojiMarkdown",
+  "name": "Copy Emoji Markdown",
+  "description": "Copy emoji as markdown syntax on right-click.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

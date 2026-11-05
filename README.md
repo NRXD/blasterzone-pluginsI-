@@ -7,7 +7,7 @@ Revenge plugin suite by theone. Voice mods, fakes, and quality-of-life — all a
 Add this URL in Revenge → Settings → Plugins → Repositories:
 
 ```
-https://NRXD.github.io/blasterzone-plugins/dist/repo.json
+https://nrxd.github.io/blasterzone-pluginsi-/dist/repo.json
 ```
 
 Or install the BlasterZone IPA (auto-registers the repo on first launch).

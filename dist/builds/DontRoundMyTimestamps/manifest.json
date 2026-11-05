@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "DontRoundMyTimestamps",
+  "name": "Don't Round My Timestamps",
+  "description": "Show exact timestamps instead of rounded 'X hours ago'.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

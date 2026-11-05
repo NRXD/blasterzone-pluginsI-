@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "SuperReactionTweaks",
+  "name": "Super Reaction Tweaks",
+  "description": "Disable super reaction animations, control auto-play of super reactions.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

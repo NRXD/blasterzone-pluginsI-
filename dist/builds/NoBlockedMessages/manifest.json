@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "NoBlockedMessages",
+  "name": "No Blocked Messages",
+  "description": "Hide messages from blocked users completely, including the collapsed notice.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

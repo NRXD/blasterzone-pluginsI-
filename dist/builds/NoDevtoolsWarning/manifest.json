@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "NoDevtoolsWarning",
+  "name": "No Devtools Warning",
+  "description": "Remove the 'Slow down! Pasting code could harm your account' warning.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

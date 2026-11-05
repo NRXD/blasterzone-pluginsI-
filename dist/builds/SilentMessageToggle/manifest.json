@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "SilentMessageToggle",
+  "name": "Silent Message Toggle",
+  "description": "Add a toggle to send messages silently (@silent) with no pings.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

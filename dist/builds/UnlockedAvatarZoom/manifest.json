@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "UnlockedAvatarZoom",
+  "name": "Unlocked Avatar Zoom",
+  "description": "Zoom in further than normal when viewing avatars in the popout.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

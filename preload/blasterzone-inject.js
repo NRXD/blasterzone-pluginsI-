@@ -6,7 +6,7 @@
   'use strict';
 
   // The URL where our dist/ folder is served (GitHub Pages)
-  var REPO_URL = 'https://NRXD.github.io/blasterzone-plugins/dist/repo.json';
+  var REPO_URL = 'https://nrxd.github.io/blasterzone-pluginsi-/dist/repo.json';
   var STORAGE_KEY = 'plugins/repositories.json';
   var SETTINGS_KEY = 'plugins/settings.json';
 
