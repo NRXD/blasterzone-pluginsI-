@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "PauseInvitesForever",
+  "name": "Pause Invites Forever",
+  "description": "Allow pausing server invites indefinitely instead of only for time-limited durations.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

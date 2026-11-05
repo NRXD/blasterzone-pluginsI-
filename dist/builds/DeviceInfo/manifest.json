@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "DeviceInfo",
+  "name": "Device Info",
+  "description": "Show your device's platform, OS, and app version in settings. Reports iOS/Android/Desktop status to other plugins.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

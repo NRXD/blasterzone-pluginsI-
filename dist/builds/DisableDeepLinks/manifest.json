@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "DisableDeepLinks",
+  "name": "Disable Deep Links",
+  "description": "Stop Discord from opening in the app when clicking discord:// links.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

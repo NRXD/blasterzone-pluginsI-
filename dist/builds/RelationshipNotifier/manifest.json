@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "RelationshipNotifier",
+  "name": "Relationship Notifier",
+  "description": "Get a notification when someone removes you as a friend or leaves a server.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

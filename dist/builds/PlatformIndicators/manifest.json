@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "PlatformIndicators",
+  "name": "Platform Indicators",
+  "description": "Show which platform (desktop/web/mobile) a user is on next to their name.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

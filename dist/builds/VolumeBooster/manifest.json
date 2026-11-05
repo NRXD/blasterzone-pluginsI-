@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "VolumeBooster",
+  "name": "Volume Booster",
+  "description": "Boost user/stream volume above Discord's 200% cap, up to 600%.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

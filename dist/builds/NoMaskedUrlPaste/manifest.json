@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "NoMaskedUrlPaste",
+  "name": "No Masked URL Paste",
+  "description": "Paste URLs as plain text instead of Discord's [text](url) format.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

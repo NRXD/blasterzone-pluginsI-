@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "GifProviderSwitcher",
+  "name": "GIF Provider Switcher",
+  "description": "Switch between GIF providers (Tenor, Giphy) in the GIF picker.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

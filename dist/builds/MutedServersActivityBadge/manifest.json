@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "MutedServersActivityBadge",
+  "name": "Muted Servers Activity Badge",
+  "description": "Show notification badges on muted servers when there is activity.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

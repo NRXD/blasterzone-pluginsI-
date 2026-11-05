@@ -1,21 +1,408 @@
 {
   "$meta": {
     "name": "BlasterZone Plugins",
-    "description": "BlasterZone plugin suite — voice mods, fake deafen, gain boost, and more. By theone."
+    "description": "Full Vencord-equivalent plugin suite for Revenge iOS. By theone."
   },
-  "FakeDeafen": { "version": "1.0.0" },
-  "FakeMute": { "version": "1.0.0" },
-  "GainBoost": { "version": "1.0.0" },
-  "DesktopSpoof": { "version": "1.0.0" },
-  "SilentTyping": { "version": "1.0.0" },
-  "MessageLogger": { "version": "1.0.0" },
-  "ClearURLs": { "version": "1.0.0" },
-  "ImageZoom": { "version": "1.0.0" },
-  "FakeNitro": { "version": "1.0.0" },
-  "AMOLED": { "version": "1.0.0" },
-  "ShowHiddenChannels": { "version": "1.0.0" },
-  "ReadAllButton": { "version": "1.0.0" },
-  "NoTypingIndicator": { "version": "1.0.0" },
-  "AlwaysAnimate": { "version": "1.0.0" },
-  "OnlineFriendCount": { "version": "1.0.0" }
+  "AccountPanelServerProfile": {
+    "version": "1.0.0"
+  },
+  "AddAttachments": {
+    "version": "1.0.0"
+  },
+  "AlwaysExpandRoles": {
+    "version": "1.0.0"
+  },
+  "AlwaysTrust": {
+    "version": "1.0.0"
+  },
+  "AnonymiseFileNames": {
+    "version": "1.0.0"
+  },
+  "AutoDNDWhilePlaying": {
+    "version": "1.0.0"
+  },
+  "BetterFolders": {
+    "version": "1.0.0"
+  },
+  "BetterGifAltText": {
+    "version": "1.0.0"
+  },
+  "BetterGifPicker": {
+    "version": "1.0.0"
+  },
+  "BetterRoleContext": {
+    "version": "1.0.0"
+  },
+  "BetterRoleDot": {
+    "version": "1.0.0"
+  },
+  "BetterSessions": {
+    "version": "1.0.0"
+  },
+  "BetterSettings": {
+    "version": "1.0.0"
+  },
+  "BetterUploadButton": {
+    "version": "1.0.0"
+  },
+  "BiggerStreamPreview": {
+    "version": "1.0.0"
+  },
+  "BlurNSFW": {
+    "version": "1.0.0"
+  },
+  "CallTimer": {
+    "version": "1.0.0"
+  },
+  "CharacterCounter": {
+    "version": "1.0.0"
+  },
+  "ClientTheme": {
+    "version": "1.0.0"
+  },
+  "ColorSighted": {
+    "version": "1.0.0"
+  },
+  "ConsoleJanitor": {
+    "version": "1.0.0"
+  },
+  "CopyEmojiMarkdown": {
+    "version": "1.0.0"
+  },
+  "CopyFileContents": {
+    "version": "1.0.0"
+  },
+  "CopyUserURLs": {
+    "version": "1.0.0"
+  },
+  "CustomCommands": {
+    "version": "1.0.0"
+  },
+  "CustomIdle": {
+    "version": "1.0.0"
+  },
+  "CustomRPC": {
+    "version": "1.0.0"
+  },
+  "Dearrow": {
+    "version": "1.0.0"
+  },
+  "Decor": {
+    "version": "1.0.0"
+  },
+  "DirectFileDownload": {
+    "version": "1.0.0"
+  },
+  "DisableCallIdle": {
+    "version": "1.0.0"
+  },
+  "DisableDeepLinks": {
+    "version": "1.0.0"
+  },
+  "DontRoundMyTimestamps": {
+    "version": "1.0.0"
+  },
+  "Experiments": {
+    "version": "1.0.0"
+  },
+  "FakeProfileThemes": {
+    "version": "1.0.0"
+  },
+  "FavoriteEmojiFirst": {
+    "version": "1.0.0"
+  },
+  "FixCodeblockGap": {
+    "version": "1.0.0"
+  },
+  "FixImagesQuality": {
+    "version": "1.0.0"
+  },
+  "ForceOwnerCrown": {
+    "version": "1.0.0"
+  },
+  "FriendInvites": {
+    "version": "1.0.0"
+  },
+  "FullSearchContext": {
+    "version": "1.0.0"
+  },
+  "GameActivityToggle": {
+    "version": "1.0.0"
+  },
+  "GifPaste": {
+    "version": "1.0.0"
+  },
+  "GifProviderSwitcher": {
+    "version": "1.0.0"
+  },
+  "HideMedia": {
+    "version": "1.0.0"
+  },
+  "IgnoreActivities": {
+    "version": "1.0.0"
+  },
+  "ImageFilename": {
+    "version": "1.0.0"
+  },
+  "ImageLink": {
+    "version": "1.0.0"
+  },
+  "ImplicitRelationships": {
+    "version": "1.0.0"
+  },
+  "IrcColors": {
+    "version": "1.0.0"
+  },
+  "JumpToTop": {
+    "version": "1.0.0"
+  },
+  "KeepCurrentChannel": {
+    "version": "1.0.0"
+  },
+  "LoadingQuotes": {
+    "version": "1.0.0"
+  },
+  "MemberCount": {
+    "version": "1.0.0"
+  },
+  "MentionAvatars": {
+    "version": "1.0.0"
+  },
+  "MessageClickActions": {
+    "version": "1.0.0"
+  },
+  "MessageLatency": {
+    "version": "1.0.0"
+  },
+  "MessageLinkEmbeds": {
+    "version": "1.0.0"
+  },
+  "MoreQuickReactions": {
+    "version": "1.0.0"
+  },
+  "MusicRichPresence": {
+    "version": "1.0.0"
+  },
+  "MutedServersActivityBadge": {
+    "version": "1.0.0"
+  },
+  "MutualGroupDMs": {
+    "version": "1.0.0"
+  },
+  "NewGuildSettings": {
+    "version": "1.0.0"
+  },
+  "NoBlockedMessages": {
+    "version": "1.0.0"
+  },
+  "NoDevtoolsWarning": {
+    "version": "1.0.0"
+  },
+  "NoMaskedUrlPaste": {
+    "version": "1.0.0"
+  },
+  "NoMosaic": {
+    "version": "1.0.0"
+  },
+  "NoPendingCount": {
+    "version": "1.0.0"
+  },
+  "NoReplyMention": {
+    "version": "1.0.0"
+  },
+  "NoServerEmojis": {
+    "version": "1.0.0"
+  },
+  "NoSystemBadge": {
+    "version": "1.0.0"
+  },
+  "NotificationVolume": {
+    "version": "1.0.0"
+  },
+  "NoTrack": {
+    "version": "1.0.0"
+  },
+  "NoTypingAnimation": {
+    "version": "1.0.0"
+  },
+  "NoUnblockToJump": {
+    "version": "1.0.0"
+  },
+  "oneko": {
+    "version": "1.0.0"
+  },
+  "OnePingPerDM": {
+    "version": "1.0.0"
+  },
+  "OpenInApp": {
+    "version": "1.0.0"
+  },
+  "OverrideForumDefaults": {
+    "version": "1.0.0"
+  },
+  "PauseInvitesForever": {
+    "version": "1.0.0"
+  },
+  "PermissionFreeWill": {
+    "version": "1.0.0"
+  },
+  "PermissionsViewer": {
+    "version": "1.0.0"
+  },
+  "petpet": {
+    "version": "1.0.0"
+  },
+  "PictureInPicture": {
+    "version": "1.0.0"
+  },
+  "PlainFolderIcon": {
+    "version": "1.0.0"
+  },
+  "PlatformIndicators": {
+    "version": "1.0.0"
+  },
+  "PreviewMessage": {
+    "version": "1.0.0"
+  },
+  "QuickMention": {
+    "version": "1.0.0"
+  },
+  "QuickReply": {
+    "version": "1.0.0"
+  },
+  "ReadAllNotificationsButton": {
+    "version": "1.0.0"
+  },
+  "RelationshipNotifier": {
+    "version": "1.0.0"
+  },
+  "ReplaceGoogleSearch": {
+    "version": "1.0.0"
+  },
+  "ReplyTimestamp": {
+    "version": "1.0.0"
+  },
+  "RevealAllSpoilers": {
+    "version": "1.0.0"
+  },
+  "ReverseImageSearch": {
+    "version": "1.0.0"
+  },
+  "ReviewDB": {
+    "version": "1.0.0"
+  },
+  "RoleColorEverywhere": {
+    "version": "1.0.0"
+  },
+  "SecretRingToneEnabler": {
+    "version": "1.0.0"
+  },
+  "SendTimestamps": {
+    "version": "1.0.0"
+  },
+  "ServerInfo": {
+    "version": "1.0.0"
+  },
+  "ServerListIndicators": {
+    "version": "1.0.0"
+  },
+  "ShowAllMessageButtons": {
+    "version": "1.0.0"
+  },
+  "ShowConnections": {
+    "version": "1.0.0"
+  },
+  "ShowHiddenThings": {
+    "version": "1.0.0"
+  },
+  "ShowMeYourName": {
+    "version": "1.0.0"
+  },
+  "ShowTimeoutDuration": {
+    "version": "1.0.0"
+  },
+  "SilentMessageToggle": {
+    "version": "1.0.0"
+  },
+  "SortFriendRequests": {
+    "version": "1.0.0"
+  },
+  "SpotifyControls": {
+    "version": "1.0.0"
+  },
+  "SpotifyCrack": {
+    "version": "1.0.0"
+  },
+  "StartupTimings": {
+    "version": "1.0.0"
+  },
+  "StickerPaste": {
+    "version": "1.0.0"
+  },
+  "StreamerModeOnStream": {
+    "version": "1.0.0"
+  },
+  "SuperReactionTweaks": {
+    "version": "1.0.0"
+  },
+  "TextReplace": {
+    "version": "1.0.0"
+  },
+  "Translate": {
+    "version": "1.0.0"
+  },
+  "TypingIndicator": {
+    "version": "1.0.0"
+  },
+  "TypingTweaks": {
+    "version": "1.0.0"
+  },
+  "Unindent": {
+    "version": "1.0.0"
+  },
+  "UnlockedAvatarZoom": {
+    "version": "1.0.0"
+  },
+  "UnsuppressEmbeds": {
+    "version": "1.0.0"
+  },
+  "UserMessagesPronouns": {
+    "version": "1.0.0"
+  },
+  "UserVoiceShow": {
+    "version": "1.0.0"
+  },
+  "USRBG": {
+    "version": "1.0.0"
+  },
+  "ValidReply": {
+    "version": "1.0.0"
+  },
+  "ValidUser": {
+    "version": "1.0.0"
+  },
+  "VcNarrator": {
+    "version": "1.0.0"
+  },
+  "ViewIcons": {
+    "version": "1.0.0"
+  },
+  "ViewRaw": {
+    "version": "1.0.0"
+  },
+  "VoiceChatDoubleClick": {
+    "version": "1.0.0"
+  },
+  "VolumeBooster": {
+    "version": "1.0.0"
+  },
+  "WhoReacted": {
+    "version": "1.0.0"
+  },
+  "YoutubeAdblock": {
+    "version": "1.0.0"
+  },
+  "DeviceInfo": {
+    "version": "1.0.0"
+  }
 }

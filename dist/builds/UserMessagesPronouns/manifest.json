@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "UserMessagesPronouns",
+  "name": "User Messages Pronouns",
+  "description": "Show a user's pronouns (from PronounDB) next to their name in chat.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

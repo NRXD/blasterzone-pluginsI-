@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "AnonymiseFileNames",
+  "name": "Anonymise File Names",
+  "description": "Randomise filenames when uploading files so metadata isn't leaked.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

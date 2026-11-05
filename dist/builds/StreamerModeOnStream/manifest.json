@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "StreamerModeOnStream",
+  "name": "Streamer Mode On Stream",
+  "description": "Automatically enable Streamer Mode when you start streaming.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

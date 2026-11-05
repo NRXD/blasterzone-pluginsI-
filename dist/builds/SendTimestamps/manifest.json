@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "SendTimestamps",
+  "name": "Send Timestamps",
+  "description": "Send timestamps in chat using /timestamp or Shift+click on the clock.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

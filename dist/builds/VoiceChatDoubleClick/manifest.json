@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "VoiceChatDoubleClick",
+  "name": "Voice Chat Double Click",
+  "description": "Double-click a voice channel to join it instead of single click.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

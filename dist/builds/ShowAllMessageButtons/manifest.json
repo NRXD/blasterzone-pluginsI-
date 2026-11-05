@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "ShowAllMessageButtons",
+  "name": "Show All Message Buttons",
+  "description": "Always show all message action buttons, don't hide them in a '...' overflow.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}

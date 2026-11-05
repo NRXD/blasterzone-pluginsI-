@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "spec": 3,
+  "version": "1.0.0",
+  "main": "index.js",
+  "id": "AutoDNDWhilePlaying",
+  "name": "Auto DND While Playing",
+  "description": "Automatically set status to Do Not Disturb while playing a game.",
+  "authors": [
+    {
+      "name": "BlasterZone",
+      "id": "blasterzone"
+    }
+  ]
+}
