@@ -1,0 +1,8 @@
+{
+  "id": "MusicSpeed",
+  "name": "Music Speed",
+  "description": "Control Discord audio playback speed. Slow (0.85x), Normal (1x), Fast (1.15x) — shortcuts included.",
+  "authors": [{ "name": "theone", "id": "0" }],
+  "version": "1.0.0",
+  "bunny": true
+}

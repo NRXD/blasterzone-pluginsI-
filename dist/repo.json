@@ -404,5 +404,8 @@
   },
   "DeviceInfo": {
     "version": "1.0.0"
+  },
+  "MusicSpeed": {
+    "version": "1.0.0"
   }
 }
